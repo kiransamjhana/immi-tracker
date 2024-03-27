@@ -5,7 +5,7 @@ import VideoThumb from "../../public/hero-image-01.jpg";
 const HeroSection = () => {
   return (
     <div>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative bg-yellow-100">
         {/* Illustration behind hero content */}
         <div
           className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none"
