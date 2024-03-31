@@ -8,10 +8,10 @@ const TopSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 p-0 bg-gray-200">
         <div className="bg-red-200 ">
           <div className="flex  flex-col justify-start text-zinc-950 mt-1">
-            <div className="logo ">
+            {/* <div className="logo ">
               {" "}
               <Image src="/log.png" alt="logo" width={300} height={300} />
-            </div>
+            </div> */}
           </div>
         </div>
 
