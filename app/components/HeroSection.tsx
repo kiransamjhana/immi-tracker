@@ -9,13 +9,17 @@ const HeroSection = () => {
         <div className="bg-green dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
           <div className="container mx-auto px-6 flex relative py-16">
             <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-26">
-              <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800">
-                Be on
-                <span className="text-5xl sm:text-7xl">Time</span>
+              <h1 className="font-bebas-neue uppercase text-2xl sm:text-4xl font-black flex flex-col leading-none dark:text-white text-gray-800 mb-3">
+                Disclaimer
               </h1>
               <p className="text-sm sm:text-base text-gray-700 dark:text-white">
-                It is always good plan ahead for your migration journey in
-                Australia. Let's share each other story. Lets learn from them.
+                This platform serves as a space for sharing personal migration
+                stories and experiences for the purpose of mutual learning and
+                support. It is important to note that the content provided here
+                does not constitute professional migration advice. Should you
+                require assistance from a qualified migration agent, we
+                recommend booking an appointment with the agents available on
+                this platform.
               </p>
               <div className="flex mt-8">
                 <a

@@ -14,7 +14,7 @@ import Image from "next/image";
 
 const Nav = () => {
   return (
-    <div className="mt-1 mb-1">
+    <div className="mt-1 mb-1 ">
       <Navbar fluid rounded className="bg-slate-100">
         <NavbarBrand href="#">
           <div className="logo ">
