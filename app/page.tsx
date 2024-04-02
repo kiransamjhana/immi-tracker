@@ -11,7 +11,6 @@ import MigrationNews from "./components/MIgrationNews";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col  ">
-      <TopSection />
       <Nav />
       <HeroSection />
       <Features />
