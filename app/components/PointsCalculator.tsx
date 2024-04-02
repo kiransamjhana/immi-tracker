@@ -49,10 +49,10 @@ const PointsCalculator = () => {
                 New to Australia ??
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                As you step foot into this vibrant and diverse land, you're
-                about to embark on an adventure of a lifetime. Here are a few
-                things to keep in mind as you settle into your new home away
-                from home.
+                As you step foot into this vibrant and diverse land,
+                you&apos;sre about to embark on an adventure of a lifetime. Here
+                are a few things to keep in mind as you settle into your new
+                home away from home.
               </p>
               <Button>
                 Learn More
@@ -79,7 +79,7 @@ const PointsCalculator = () => {
                 Working Part Time !!
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                We have a guide for you if you're starting your part-time
+                We have a guide for you if you&apos;sre starting your part-time
                 working journey in Australia. Get the things right from
                 obtaining the tax file number to choosing the right employer.
               </p>

@@ -1,7 +1,6 @@
 import React from "react";
 import ModalVideo from "./ModalVideo";
 import VideoThumb from "../../public/hero-image-01.jpg";
-import PopOver from "./PopOver";
 
 const HeroSection = () => {
   return (
@@ -27,7 +26,7 @@ const HeroSection = () => {
                   href="#"
                   className="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400"
                 >
-                  Let's get started
+                  Let&apos;s get started
                 </a>
                 <a
                   href="#"
