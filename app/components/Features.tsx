@@ -15,9 +15,9 @@ const Features = () => {
 
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
             Choose the features you want to start from the following options.
-            Remember ! you're helping other students like you while you're
-            sharing your own story. We are all in this together. Sharing is
-            caring.
+            Remember ! you&apos;sre helping other students like you while
+            you&apos;sre sharing your own story. We are all in this together.
+            Sharing is caring.
           </p>
         </div>
 
