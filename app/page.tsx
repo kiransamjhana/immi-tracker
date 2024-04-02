@@ -7,6 +7,7 @@ import TopSection from "./components/TopSection";
 import Footeer from "./components/Footeer";
 import LatestBlog from "./components/LatestBlog";
 import MigrationNews from "./components/MIgrationNews";
+import PointsCalculator from "./components/PointsCalculator";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <LatestBlog />
 
       <MigrationNews />
+      <PointsCalculator />
       <Footeer />
     </main>
   );

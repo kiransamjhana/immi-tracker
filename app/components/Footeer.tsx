@@ -18,6 +18,7 @@ import {
 const Footeer = () => {
   return (
     <div>
+      <hr />
       <Footer>
         <div className="w-full bg-red-100">
           <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">

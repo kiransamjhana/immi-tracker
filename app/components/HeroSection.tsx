@@ -1,6 +1,7 @@
 import React from "react";
 import ModalVideo from "./ModalVideo";
 import VideoThumb from "../../public/hero-image-01.jpg";
+import PopOver from "./PopOver";
 
 const HeroSection = () => {
   return (
