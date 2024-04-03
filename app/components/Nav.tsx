@@ -16,13 +16,15 @@ const Nav = () => {
   return (
     <div className="mt-1 mb-1  sticky top-0 z-50  ">
       <Navbar fluid rounded className="bg-slate-100">
-        <NavbarBrand href="#">
-          <div className="logo ">
+        <div className="flex">
+          {" "}
+          <NavbarBrand href="#" className="mx-auto md:mx-0">
             {" "}
             <Image src="/log.png" alt="logo" width={300} height={300} />
-          </div>
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-black"></span>
-        </NavbarBrand>
+            <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-black"></span>
+          </NavbarBrand>
+        </div>
+
         <div className="flex md:order-2 justify-start">
           <Dropdown
             arrowIcon={false}
@@ -51,16 +53,18 @@ const Nav = () => {
           </Dropdown>
           <NavbarToggle />
         </div>
-        <NavbarCollapse className="flex justify-start">
-          <NavbarLink href="#" active>
-            Home
-          </NavbarLink>
-          <NavbarLink href="#">About</NavbarLink>
-          <NavbarLink href="#">Services</NavbarLink>
-          <NavbarLink href="#">Blogs</NavbarLink>
-          <NavbarLink href="#">News</NavbarLink>
-          <NavbarLink href="#">Story</NavbarLink>
-        </NavbarCollapse>
+        <div className="md:order-1 md:justify-start">
+          <NavbarCollapse className="">
+            <NavbarLink href="#" active>
+              Home
+            </NavbarLink>
+            <NavbarLink href="#">About</NavbarLink>
+            <NavbarLink href="#">Services</NavbarLink>
+            <NavbarLink href="#">Blogs</NavbarLink>
+            <NavbarLink href="#">News</NavbarLink>
+            <NavbarLink href="#">Story</NavbarLink>
+          </NavbarCollapse>
+        </div>
       </Navbar>
     </div>
   );
