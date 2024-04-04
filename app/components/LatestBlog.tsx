@@ -8,13 +8,13 @@ const LatestBlog = () => {
         <h2 className="font-manrope text-4xl font-bold text-gray-900 text-center mb-16 mt-5">
           Our latest blog
         </h2>
-        <div className="flex justify-center  gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
-          <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
+        <div className="flex justify-center gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8 ">
+          <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl transform transition-transform hover:scale-105 ">
             <div className="flex items-center">
               <img
                 src="https://pagedone.io/asset/uploads/1696244317.png"
                 alt="blogs tailwind section"
-                className="rounded-t-2xl w-full"
+                className="rounded-t-2xl w-full "
               />
             </div>
             <div className="p-4 lg:p-6 transition-all duration-300 rounded-b-2xl group-hover:bg-gray-50">
@@ -22,11 +22,11 @@ const LatestBlog = () => {
                 Jan 01, 2023
               </span>
               <h4 className="text-xl text-gray-900 font-medium leading-8 mb-5">
-                Clever ways to invest in product to organize your portfolio
+                How to lodge Expression if Interest
               </h4>
               <p className="text-gray-500 leading-6 mb-10">
-                Discover smart investment strategies to streamline and organize
-                your portfolio..
+                Details information about how to start lodging your expression
+                of interest to different sub-class visa.
               </p>
               <a
                 href="javascript:;"
@@ -36,7 +36,7 @@ const LatestBlog = () => {
               </a>
             </div>
           </div>
-          <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
+          <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl transform transition-transform hover:scale-105">
             <div className="flex items-center">
               <img
                 src="https://pagedone.io/asset/uploads/1696244340.png"
@@ -49,7 +49,8 @@ const LatestBlog = () => {
                 Feb 01, 2023
               </span>
               <h4 className="text-xl text-gray-900 font-medium leading-8 mb-5">
-                How to grow your profit through systematic investment with us
+                Saving money during your stay in Australia as an international
+                students
               </h4>
               <p className="text-gray-500 leading-6 mb-10">
                 Unlock the power of systematic investment with us and watch your
@@ -63,7 +64,7 @@ const LatestBlog = () => {
               </a>
             </div>
           </div>
-          <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
+          <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl transform transition-transform hover:scale-105">
             <div className="flex items-center">
               <img
                 src="https://pagedone.io/asset/uploads/1696244356.png"
@@ -76,7 +77,7 @@ const LatestBlog = () => {
                 Mar 01, 20233
               </span>
               <h4 className="text-xl text-gray-900 font-medium leading-8 mb-5">
-                How to analyze every holdings of your portfolio
+                How to prepare for pearson test of english?
               </h4>
               <p className="text-gray-500 leading-6 mb-10">
                 Our comprehensive guide will equip you with the tools and
