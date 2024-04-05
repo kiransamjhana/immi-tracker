@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Features = () => {
@@ -22,28 +23,33 @@ const Features = () => {
         </div>
 
         <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
+          {" "}
           <div className="relative overflow-hidden rounded-lg border bg-green-100 select-none hover:transform hover:scale-105 hover:text-red-600 p-2">
             <div className="flex flex-col justify-between rounded-md p-6">
-              <div className="space-y-2">
-                <h3 className="font-bold">Visa tracking</h3>
-                <p className="text-sm text-muted-foreground">
-                  Track your visa lodgment
-                </p>
-              </div>
+              <Link href="visa-forum">
+                {" "}
+                <div className="space-y-2">
+                  <h3 className="font-bold">Visa tracking</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Track your visa lodgment
+                  </p>
+                </div>{" "}
+              </Link>
             </div>
-          </div>
-
+          </div>{" "}
           <div className="relative overflow-hidden rounded-lg border bg-green-100 select-none hover:transform hover:scale-105 hover:text-red-600 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <div className="space-y-2">
-                <h3 className="font-bold">Expression of Interest(EOI)</h3>
-                <p className="text-sm">
-                  Expression of interest to different state
-                </p>
-              </div>
+              <Link href="eoi-forum">
+                {" "}
+                <div className="space-y-2">
+                  <h3 className="font-bold">Expression of Interest(EOI)</h3>
+                  <p className="text-sm">
+                    Expression of interest to different state
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
-
           <div className="relative overflow-hidden rounded-lg border bg-green-100 select-none hover:transform hover:scale-105 hover:text-red-600 p-2">
             <div className="flex h-[180px] flex-col justify-between bg-black-200 rounded-md p-6">
               <div className="space-y-2">
@@ -54,7 +60,6 @@ const Features = () => {
               </div>
             </div>
           </div>
-
           <div className="relative overflow-hidden rounded-lg border bg-green-100 select-none hover:transform hover:scale-105 hover:text-red-600 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <div className="space-y-2">
@@ -65,7 +70,6 @@ const Features = () => {
               </div>
             </div>
           </div>
-
           <div className="relative overflow-hidden rounded-lg border bg-green-100 select-none hover:transform hover:scale-105 hover:text-red-600 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <div className="space-y-2">
@@ -76,7 +80,6 @@ const Features = () => {
               </div>
             </div>
           </div>
-
           <div className="relative overflow-hidden rounded-lg border bg-green-100 select-none hover:transform hover:scale-105 hover:text-red-600 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <div className="space-y-2">
