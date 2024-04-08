@@ -3,18 +3,18 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div className="bg-white-50 py ">
+    <div className=" ">
       <section
         id="features"
-        className="container mx-auto px-4 space-y-6 bg-slate-50 py-8 md:py-12 lg:py-20"
+        className="container mx-auto px-4 space-y-6 py-8 md:py-12 lg:py-20"
       >
         <hr />
-        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center bg-slate-50 mb-5">
-          <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center  mb-5">
+          <h2 className=" font-medium text-xl leading-[1.1] sm:text-3xl text-pink md:text-6xl font-serif mb-4">
             Features
           </h2>
 
-          <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+          <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 mb-10">
             Choose the features you want to start from the following options.
             Remember ! you&apos;re helping other students like you while
             you&apos;re sharing your own story. We are all in this together.
@@ -26,7 +26,7 @@ const Features = () => {
           {" "}
           <div className="relative overflow-hidden rounded-lg border bg-green-100 select-none hover:transform hover:scale-105 hover:text-red-600 p-2">
             <div className="flex flex-col justify-between rounded-md p-6">
-              <Link href="visa-forum">
+              <Link href="/visa-forum">
                 {" "}
                 <div className="space-y-2">
                   <h3 className="font-bold">Visa tracking</h3>
@@ -39,7 +39,7 @@ const Features = () => {
           </div>{" "}
           <div className="relative overflow-hidden rounded-lg border bg-green-100 select-none hover:transform hover:scale-105 hover:text-red-600 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <Link href="eoi-forum">
+              <Link href="/eoi-forum">
                 {" "}
                 <div className="space-y-2">
                   <h3 className="font-bold">Expression of Interest(EOI)</h3>
